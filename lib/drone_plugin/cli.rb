@@ -35,7 +35,7 @@ module DronePlugin
           use :DRONE_BUILD_EVENT,    "build event",             class: ::String,  default: "push"
           use :DRONE_BUILD_NUMBER,   "build number",            class: ::Integer, default: -1
           use :DRONE_BUILD_STATUS,   "build status",            class: ::String,  default: "success"
-          use :DRONE_BUILD_LINK,     "build line",              class: ::String,  default: ""
+          use :DRONE_BUILD_LINK,     "build link",              class: ::String,  default: ""
           use :DRONE_BUILD_STARTED,  "build started",           class: :epoch,    default: Time.now
           use :DRONE_BUILD_CREATED,  "build created",           class: :epoch,    default: Time.now
           use :DRONE_JOB_STARTED,    "job started",             class: :epoch,    default: Time.now
