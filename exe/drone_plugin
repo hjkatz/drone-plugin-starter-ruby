@@ -1,0 +1,2 @@
+require "drone_plugin"
+DronePlugin::CLI.exec
